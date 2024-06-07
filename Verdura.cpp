@@ -4,7 +4,7 @@
 
 #include "Verdura.h"
 
-Verdura::Verdura(){
+Verdura::Verdura() :Producto(){
     temporada = "Invierno";
 }
 

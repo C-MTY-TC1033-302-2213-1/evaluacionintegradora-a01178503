@@ -17,10 +17,10 @@ int main() {
     
     switch (opcion) {
         case 1:
-            pedido.leerArchivo("/Users/eltenders/Documents/GitHub/evaluacionintegradora-a01178503/Pedido1.csv");
+            pedido.leerArchivo("Pedido1.csv");
             break;
         case 2:
-            pedido.leerArchivo("/Users/eltenders/Documents/GitHub/evaluacionintegradora-a01178503/Pedido2.csv");
+            pedido.leerArchivo("Pedido2.csv");
             break;
         case 3:
             pedido.leerArchivo("Pedido3.csv");

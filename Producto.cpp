@@ -17,14 +17,14 @@ Producto::Producto(string _nombre, int _precio, int _peso){
 }
 
 void Producto::setNombre(string _nombre){
-    nombre = "V1";
+    nombre = _nombre;
 
 }
 void Producto::setPeso(int _peso){
-    peso = 80;
+    peso = _peso;
 }
 void Producto::setPrecio(int _precio){
-    precio = 35;
+    precio = _precio;
 }
 
 string Producto::getNombre(){
